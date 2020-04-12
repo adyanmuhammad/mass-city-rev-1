@@ -10,7 +10,51 @@
 
 {% include header.html %}
 {% include above-the-fold.html %}
-{% include content-without-sidebar.html %}
+<div class="container-fluid p-0 flex-grow-1">
+  <div class="container px-0 py-3">
+    <div class="row px-3">
+      <div class="col-12 col-lg-9 mb-3">
+        <div class="row px-3">
+          <div class="col-12">
+            <h2>
+              Blocked Drainage United Kingdom:<br>
+              <small>
+                Your Trusted <span class="text-capitalize">{{ page.name | replace: "-", " " | remove: "coverage" | remove: ".html" }}</span> Service Near You
+              </small>
+            </h2>
+            <p>
+              Blocked Drainage United Kingdom has acquired an identity as a crucial participant in the united kingdom with regards to <span class="font-weight-bold">{{ page.name | replace: "-", " " | remove: "coverage" | remove: ".html" }}</span>.
+            </p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <ul class="list-unstyled">
+            {% for branch in site.data.final_cities limit:574 %}
+              <li><a href="{{ page.name | remove: "coverage.html" }}{{ branch.Town | replace: " ", "-" | downcase }}.html"><span class="text-capitalize">{{ page.name | replace: "-", " " | remove: "coverage" | remove: ".html" }}</span> {{ branch.Town }}</a></li>
+            {% endfor %}
+            </ul>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <ul class="list-unstyled">
+            {% for branch in site.data.final_cities offset:574 limit:574 %}
+              <li><a href="{{ page.name | remove: "coverage.html" }}{{ branch.Town | replace: " ", "-" | downcase }}.html"><span class="text-capitalize">{{ page.name | replace: "-", " " | remove: "coverage" | remove: ".html" }}</span> {{ branch.Town }}</a></li>
+            {% endfor %}
+            </ul>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <ul class="list-unstyled">
+            {% for branch in site.data.final_cities offset:1148 %}
+              <li><a href="{{ page.name | remove: "coverage.html" }}{{ branch.Town | replace: " ", "-" | downcase }}.html"><span class="text-capitalize">{{ page.name | replace: "-", " " | remove: "coverage" | remove: ".html" }}</span> {{ branch.Town }}</a></li>
+            {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-3 mb-3 d-none d-lg-block">
+        {% include sidebar.html %}
+      </div>
+    </div>
+  </div>
+</div>
 {% include footer.html %}
 {% include js.html %}
   
