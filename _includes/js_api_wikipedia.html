@@ -1,0 +1,14 @@
+<script>
+  $.getJSON('https://en.wikipedia.org/w/api.php?action=query&prop=extracts&exintro&explaintext&format=json&redirects&titles={{ page.Town }}' + '&origin=*', function (data) {
+    let x = data.query.pages;
+    let y = Object.values(x);
+    let z = y["0"].extract;
+    let a = document.getElementById('city-title');
+    let b = document.getElementById('city-description');
+    let c = y["0"].title;
+    let d = y["0"].extract;
+
+    a.innerHTML = c;
+    b.innerHTML = d;
+  });
+</script>

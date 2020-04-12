@@ -1,0 +1,127 @@
+<div class="container-fluid p-0 bg-light">
+  <div class="container px-0 py-3">
+    <div class="row px-3 py-5">
+      <div class="col-12 col-md-12 col-lg-4 my-3">
+        <!-- Brand -->
+        <img src="https://via.placeholder.com/80/0066FF/FFFFFF?text=_>" class="align-self-center mb-3 rounded-circle"
+          alt="...">
+        <!-- Text -->
+        <h6 class="font-weight-bold text-uppercase text-gray-700 mb-3">
+          Blocked Drainage<br>
+          United Kingdom
+        </h6>
+        <p class="text-gray-700 mb--3">
+          For all forms of blocked drains, blocked showers, blocked toilets contact Blocked Drains United Kingdom at <a
+            class="text-primary" href="tel:{{ site.phone }}">{{ site.phone }}</a>.
+        </p>
+        <!-- Social -->
+        <ul class="list-unstyled list-inline list-social mb-6 mb-md-0">
+          <li class="list-inline-item list-social-item mr-3">
+            <a href="#!" class="text-decoration-none text-muted">
+              <i class="fab fa-facebook-square"></i>
+            </a>
+          </li>
+          <li class="list-inline-item list-social-item mr-3">
+            <a href="#!" class="text-decoration-none">
+              <i class="fab fa-twitter text-muted"></i>
+            </a>
+          </li>
+          <li class="list-inline-item list-social-item mr-3">
+            <a href="#!" class="text-decoration-none text-muted">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </li>
+          <li class="list-inline-item list-social-item">
+            <a href="#!" class="text-decoration-none text-muted">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-6 col-md-3 col-lg-2 my-3">
+        <!-- Heading -->
+        <h6 class="font-weight-bold text-uppercase text-gray-700 mb-3">
+          Areas We Cover
+        </h6>
+        <!-- List -->
+        <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+          {% if site.data.services %}
+          {% for service in site.data.services limit:8 %}
+          <li class="mb-3">
+            <a href="/{{ service.url }}-coverage/" class="text-reset">
+              {{ service.name }}
+            </a>
+          </li>
+          {% endfor %}
+          {% endif %}
+        </ul>
+      </div>
+      <div class="col-6 col-md-3 col-lg-2 d-none d-md-block my-3">
+        <!-- Heading -->
+        <h6 class="font-weight-bold text-uppercase text-gray-700 mb-3">
+          &nbsp;
+        </h6>
+        <!-- List -->
+        <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+          {% if site.data.services %}
+          {% for service in site.data.services offset:8 limit:8 %}
+          <li class="mb-3">
+            <a href="/{{ service.url }}-coverage/" class="text-reset">
+              {{ service.name }}
+            </a>
+          </li>
+          {% endfor %}
+          {% endif %}
+        </ul>
+      </div>
+      <div class="col-6 col-md-3 col-lg-2 d-none d-md-block my-3">
+        <!-- Heading -->
+        <h6 class="font-weight-bold text-uppercase text-gray-700 mb-3">
+          &nbsp;
+        </h6>
+        <!-- List -->
+        <ul class="list-unstyled text-muted mb-0">
+          {% if site.data.services %}
+          {% for service in site.data.services offset:16 limit:8 %}
+          <li class="mb-3">
+            <a href="/{{ service.url }}-coverage/" class="text-reset">
+              {{ service.name }}
+            </a>
+          </li>
+          {% endfor %}
+          {% endif %}
+        </ul>
+      </div>
+      <div class="col-6 col-md-3 col-lg-2 my-3">
+        <!-- Heading -->
+        <h6 class="font-weight-bold text-uppercase text-gray-700 mb-3">
+          Useful Links
+        </h6>
+        <!-- List -->
+        <ul class="list-unstyled text-muted mb-0">
+          {% if site.data.useful_links %}
+          {% for useful_link in site.data.useful_links %}
+          <li class="mb-3">
+            <a href="/{{ useful_link.url }}/" class="text-reset">
+              {{ useful_link.name }}
+            </a>
+          </li>
+          {% endfor %}
+          {% endif %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid p-0 bg-secondary">
+  <div class="container px-0 py-3">
+    <div class="row px-3">
+      <div class="col-12">
+        <p class="small text-light mb-0">
+          &copy; 2020 {{ site.title }}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

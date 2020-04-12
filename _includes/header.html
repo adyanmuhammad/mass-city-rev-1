@@ -1,0 +1,166 @@
+<div class="container-fluid p-0 bg-white">
+  <div class="container px-0 py-3">
+    <div class="d-flex px-3">
+
+      <div class="media mr-3 flex-grow-1">
+        <img class="rounded-circle mr-2" src="https://via.placeholder.com/40/0066FF/FFFFFF?text=_>" alt="">
+        <div class="media-body align-self-center">
+          <h6 class="my-0">Blocked Drainage <br>United Kingdom</h6>
+        </div>
+      </div>
+
+      <div class="media mr-3 d-none d-lg-flex">
+        <img class="rounded-circle mr-2" src="https://via.placeholder.com/40/0066FF/FFFFFF?text=_>" alt="">
+        <div class="media-body align-self-center">
+          <h6 class="my-0">Call Us On</h6>
+          <a class="small" href="tel:{{ site.phone }}">{{ site.phone }}</a>
+        </div>
+      </div>
+
+      <div class="media mr-3 d-none d-lg-flex">
+        <img class="rounded-circle mr-2" src="https://via.placeholder.com/40/0066FF/FFFFFF?text=_>" alt="">
+        <div class="media-body align-self-center">
+          <h6 class="my-0">Working Hours</h6>
+          <small>24 Days / 7 Days</small>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid p-0 bg-white shadow sticky-top">
+  <div class="container px-0 py-0">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      
+      <button class="btn btn-primary px-2 py-1 my-2 my-sm-0 d-block d-lg-none" type="button">
+        Book a Service
+      </button>
+      <button class="btn btn-primary px-2 py-1 my-2 my-sm-0 d-block d-lg-none" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        Menu
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="{{ "/" | relative_url }}">
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ "/about/" | relative_url }}">
+              About
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ "/why-choose-us/" | relative_url }}">
+              Why Choose Us
+            </a>
+          </li>
+          <li class="nav-item dropdown megamenu">
+            <a id="megamenu" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Services</a>
+            <div aria-labelledby="megamenu" class="dropdown-menu border-0 p-0 m-0">
+              <div class="container bg-white p-0 p-lg-3 shadow">
+                <div class="d-flex flex-column flex-lg-row w-100">
+                  <div class="p-2 flex-fill">
+                    <div class="list-group list-group-flush">
+                      <span class="list-group-item active">Blocked</span>
+                      {% if site.data.services %}
+                      {% for service in site.data.services limit:4 %}
+                      <a class="list-group-item list-group-item-action" href="/{{ service.url }}-coverage/">
+                        {{ service.name }}
+                      </a>
+                      {% endfor %}
+                      {% endif %}
+                    </div>
+                    <div class="list-group list-group-flush">
+                      <span class="list-group-item active">CCTV</span>
+                      {% if site.data.services %}
+                      {% for service in site.data.services offset:4 limit:3 %}
+                      <a class="list-group-item list-group-item-action" href="/{{ service.url }}-coverage/">
+                        {{ service.name }}
+                      </a>
+                      {% endfor %}
+                      {% endif %}
+                    </div>
+                  </div>
+                  <div class="p-2 flex-fill">
+                    <div class="list-group list-group-flush">
+                      <span class="list-group-item active">Drainage</span>
+                      {% if site.data.services %}
+                      {% for service in site.data.services offset:7 limit:8 %}
+                      <a class="list-group-item list-group-item-action" href="/{{ service.url }}-coverage/">
+                        {{ service.name }}
+                      </a>
+                      {% endfor %}
+                      {% endif %}
+                    </div>
+                  </div>
+                  <div class="p-2 flex-fill">
+                    <div class="list-group list-group-flush">
+                      <span class="list-group-item active">Sewer</span>
+                      {% if site.data.services %}
+                      {% for service in site.data.services offset:15 limit: 8 %}
+                      <a class="list-group-item list-group-item-action" href="/{{ service.url }}-coverage/">
+                        {{ service.name }}
+                      </a>
+                      {% endfor %}
+                      {% endif %}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Sectors
+            </a>
+            <div class="dropdown-menu rounded-0 border-0 bg-white p-0 p-lg-3 shadow" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item border-bottom border-light" href="#" style="padding: .75rem 1.25rem;">Commercial Drain Unblocking</a>
+              <a class="dropdown-item" href="#" style="padding: .75rem 1.25rem;">Domestic Drain Unblocking</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ "/advice/" | relative_url }}">
+              Advice
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ "/contact/" | relative_url }}">
+              Contact
+            </a>
+          </li>
+        </ul>
+        <ul class="navbar-nav list-unstyled list-inline d-none d-lg-flex">
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="fab fa-facebook-square"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+        <button class="btn btn-primary px-2 py-1 ml-3 my-2 my-sm-0 d-none d-lg-block" type="submit">
+          Book a Service
+        </button>
+      </div>
+
+    </nav>
+  </div>
+</div>

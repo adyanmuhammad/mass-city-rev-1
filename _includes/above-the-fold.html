@@ -1,0 +1,35 @@
+<div class="container-fluid p-0 svg-bg">
+  <div class="container px-0 py-5">
+    <nav class="px-3" aria-label="breadcrumb">
+      <ol class="breadcrumb p-0 small bg-transparent">
+          <li class="breadcrumb-item"><a href="{{ "/" | relative_url }}">Home</a></li>
+          <li class="breadcrumb-item active">
+            <a href="{{ page.url }}">
+              {% assign url = page.url | replace: "-", " " | remove: "/" | remove: ".html" %}
+              {% assign url_modified = url | split: " " %}
+              {% for word in url_modified %}
+                {{ word | capitalize }}
+              {% endfor %}
+            </a>
+          </li>
+      </ol>
+    </nav>
+    <h1 class="px-3" style="text-shadow: .05rem .05rem blue;">
+      {% if page.layout == "page" %}
+        {{ page.title }}
+      {% elsif page.layout == "service" %}
+        {% assign url = page.url | replace: "-", " " | remove: "/" | remove: ".html" %}
+        {% assign url_modified = url | split: " " %}
+        {% for word in url_modified %}
+          {{ word | capitalize }}
+        {% endfor %}
+      {% else %}
+        {% assign title = page.title | split: "-" %}
+        {% for word in title %}
+          {{ word | remove: "coverage" | capitalize }}
+        {% endfor %}
+        Areas We Cover
+      {% endif %}
+    </h1>
+  </div>
+</div>

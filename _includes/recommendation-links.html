@@ -1,0 +1,31 @@
+<div class="row py-3">
+  <div class="col-12">
+    <h5>Our Services In Other Cities:</h5>
+  </div>
+  <div class="col-12 col-lg-6">
+    <ul class="list-unstyled">
+    {% assign start = page.No | minus: 4 %}
+    {% for city in site.data.final_cities offset:start limit:4 %}
+      {% assign url = site.data.services[0].name | append: "-" | append: city.Town %}
+      <li>
+        <a href="{{ url | replace: " ", "-" | downcase }}.html">
+          <i class="fas fa-angle-right"></i> <span class="text-capitalize">{{ site.data.services[0].name }}</span> {{ city.Town }}
+        </a>
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
+  <div class="col-12 col-lg-6">
+    <ul class="list-unstyled">
+    {% assign start = page.No | plus: 4 %}
+    {% for city in site.data.final_cities offset:start limit:4 %}
+      {% assign url = site.data.services[0].name | append: "-" | append: city.Town %}
+      <li>
+        <a href="{{ url | replace: " ", "-" | downcase }}.html">
+          <i class="fas fa-angle-right"></i> <span class="text-capitalize">{{ site.data.services[0].name }}</span> {{ city.Town }}
+        </a>
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,6 @@
+- name: Terms and Conditions
+  url: terms-and-conditions
+- name: Privacy Policy
+  url: privacy-policy
+- name: About Us On The Web
+  url: about-us-on-the-web

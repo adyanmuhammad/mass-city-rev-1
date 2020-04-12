@@ -1,0 +1,14 @@
+- day: Sunday
+  hours: 00 - 24
+- day: Monday
+  hours: 00 - 24
+- day: Tuesday
+  hours: 00 - 24
+- day: Wednesday
+  hours: 00 - 24
+- day: Thursday
+  hours: 00 - 24 
+- day: Friday
+  hours: 00 - 24
+- day: Saturday
+  hours: 00 - 24

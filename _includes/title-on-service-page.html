@@ -1,0 +1,6 @@
+<title>
+{% assign title = page.title | split: "-" %}
+{% for word in title %}
+  {{ word | capitalize }}
+{% endfor %} - {{ site.title }}
+</title>
