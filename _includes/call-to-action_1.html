@@ -2,25 +2,19 @@
   <div class="container py-3">
     <div class="d-flex justify-content-between">
       <a class="btn btn-primary" type="button" href="tel:{{ site.phone }}">Call Us: {{ site.phone }}</a>
-      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
+      <script src ="https://form.jotform.com/static/feedback2.js" type="text/javascript"></script>
+      <script type="text/javascript"> 
+        var JFL_201030101676438 = new JotformFeedback({ 
+          formId: '201030101676438', 
+          base: 'https://form.jotform.com/', 
+          windowTitle: 'Contact Form', 
+          background: '#FFA500', 
+          fontColor: '#FFFFFF', 
+          type: 'false', height: 500, width: 700, openOnLoad: false }); 
+      </script>
+      <a class="btn btn-primary text-white lightbox-201030101676438">
         Contact Form
-      </button>
-    </div>
-  </div>
-</div>
-
-<!-- Modal -->
-<div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        {% include jotform.html %}
-      </div>
+      </a>
     </div>
   </div>
 </div>
