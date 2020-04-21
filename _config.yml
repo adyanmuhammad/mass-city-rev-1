@@ -25,191 +25,191 @@ page_gen:
   name_expr: + "blocked-drains-" + record['Town']
   dir: '/'
 
-# 02. Blocked Baths
-# url: /blocked-baths-city-name/
-- data: 'final_cities'
-  template: 'services/blocked-baths'
-  name: 'Town'
-  name_expr: + "blocked-baths-" + record['Town']
-  dir: '/' 
+# # 02. Blocked Baths
+# # url: /blocked-baths-city-name/
+# - data: 'final_cities'
+#   template: 'services/blocked-baths'
+#   name: 'Town'
+#   name_expr: + "blocked-baths-" + record['Town']
+#   dir: '/' 
   
-# 03. Blocked Sinks
-# url: /blocked-sinks-city-name/
-- data: 'final_cities'
-  template: 'services/blocked-sinks'
-  name: 'Town'
-  name_expr: + "blocked-sinks-" + record['Town']
-  dir: '/'
+# # 03. Blocked Sinks
+# # url: /blocked-sinks-city-name/
+# - data: 'final_cities'
+#   template: 'services/blocked-sinks'
+#   name: 'Town'
+#   name_expr: + "blocked-sinks-" + record['Town']
+#   dir: '/'
   
-# 04. Blocked Toilets
-# url: /blocked-toilets-city-name/
-- data: 'final_cities'
-  template: 'services/blocked-toilets'
-  name: 'Town'
-  name_expr: + "blocked-toilets-" + record['Town']
-  dir: '/'
+# # 04. Blocked Toilets
+# # url: /blocked-toilets-city-name/
+# - data: 'final_cities'
+#   template: 'services/blocked-toilets'
+#   name: 'Town'
+#   name_expr: + "blocked-toilets-" + record['Town']
+#   dir: '/'
   
-# 05. CCTV Drains Survey
-# url: /cctv-drains-survey-city-name/
-- data: 'final_cities'
-  template: 'services/cctv-drains-survey'
-  name: 'Town'
-  name_expr: + "cctv-drains-survey-" + record['Town']
-  dir: '/'
+# # 05. CCTV Drains Survey
+# # url: /cctv-drains-survey-city-name/
+# - data: 'final_cities'
+#   template: 'services/cctv-drains-survey'
+#   name: 'Town'
+#   name_expr: + "cctv-drains-survey-" + record['Town']
+#   dir: '/'
   
-# 06. Home Buyers Drain Survey
-# url: /home-buyers-drain-survey-city-name/
-- data: 'final_cities'
-  template: 'services/home-buyers-drain-survey'
-  name: 'Town'
-  name_expr: + "home-buyers-drain-survey-" + record['Town']
-  dir: '/'
-  
-
-# 07. Manhole Inspections
-# url: /manhole-inspections-city-name/
-- data: 'final_cities'
-  template: 'services/manhole-inspections'
-  name: 'Town'
-  name_expr: + "manhole-inspections-" + record['Town']
-  dir: '/'
-  
-# 08. Drain Cleaning
-# url: /drain-cleaning-city-name/
-- data: 'final_cities'
-  template: 'services/drain-cleaning'
-  name: 'Town'
-  name_expr: + "drain-cleaning-" + record['Town']
-  dir: '/'
-  
-# 09. Drain Inspection
-# url: /drain-inspection-city-name/
-- data: 'final_cities'
-  template: 'services/drain-inspection'
-  name: 'Town'
-  name_expr: + "drain-inspection-" + record['Town']
-  dir: '/'
-  
-# 10. Drain Jetting
-# url: /drain-jetting-city-name/
-- data: 'final_cities'
-  template: 'services/drain-jetting'
-  name: 'Town'
-  name_expr: + "drain-jetting-" + record['Town']
-  dir: '/'
-  
-# 11. Drain Jet Vacuumation
-# url: /drain-jet-vacuumation-city-name/
-- data: 'final_cities'
-  template: 'services/drain-jet-vacuumation'
-  name: 'Town'
-  name_expr: + "drain-jet-vacuumation-" + record['Town']
-  dir: '/'
-  
-# 12. Drain Relining
-# url: /drain-relining-city-name/
-- data: 'final_cities'
-  template: 'services/drain-relining'
-  name: 'Town'
-  name_expr: + "drain-relining-" + record['Town']
-  dir: '/'
-  
-# 13. Drain Repairs
-# url: /drain-repairs-city-name/
-- data: 'final_cities'
-  template: 'services/drain-repairs'
-  name: 'Town'
-  name_expr: + "drain-repairs-" + record['Town']
-  dir: '/'
-  
-# 14. Drainage Survey
-# url: /drainage-survey-city-name/
-- data: 'final_cities'
-  template: 'services/drainage-survey'
-  name: 'Town'
-  name_expr: + "drainage-survey-" + record['Town']
-  dir: '/'
-  
-# 15. Drain Unblocking
-# url: /drain-unblocking-city-name/
-- data: 'final_cities'
-  template: 'services/drain-unblocking'
-  name: 'Town'
-  name_expr: + "drain-unblocking-" + record['Town']
-  dir: '/'
-  
-# 16. Blocked Sewer
-# url: /blocked-sewer-city-name/
-- data: 'final_cities'
-  template: 'services/blocked-sewer'
-  name: 'Town'
-  name_expr: + "blocked-sewer-" + record['Town']
-  dir: '/'
-  
-# 17. Sewer Desilting
-# url: /sewer-desilting-city-name/
-- data: 'final_cities'
-  template: 'services/sewer-desilting'
-  name: 'Town'
-  name_expr: + "sewer-desilting-" + record['Town']
-  dir: '/'
-  
-# 18. Sewer Inspections
-# url: /sewer-inspections-city-name/
-- data: 'final_cities'
-  template: 'services/sewer-inspections'
-  name: 'Town'
-  name_expr: + "sewer-inspections-" + record['Town']
-  dir: '/'
+# # 06. Home Buyers Drain Survey
+# # url: /home-buyers-drain-survey-city-name/
+# - data: 'final_cities'
+#   template: 'services/home-buyers-drain-survey'
+#   name: 'Town'
+#   name_expr: + "home-buyers-drain-survey-" + record['Town']
+#   dir: '/'
   
 
-# 19. Sewer Jet Vacuumation
-# url: /sewer-jet-vacuumation-city-name/
-- data: 'final_cities'
-  template: 'services/sewer-jet-vacuumation'
-  name: 'Town'
-  name_expr: + "sewer-jet-vacuumation-" + record['Town']
-  dir: '/'
+# # 07. Manhole Inspections
+# # url: /manhole-inspections-city-name/
+# - data: 'final_cities'
+#   template: 'services/manhole-inspections'
+#   name: 'Town'
+#   name_expr: + "manhole-inspections-" + record['Town']
+#   dir: '/'
   
-# 20. Sewer Rehabilitations
-# url: /sewer-rehabilitations-city-name/
-- data: 'final_cities'
-  template: 'services/sewer-rehabilitations'
-  name: 'Town'
-  name_expr: + "sewer-rehabilitations-" + record['Town']
-  dir: '/'
+# # 08. Drain Cleaning
+# # url: /drain-cleaning-city-name/
+# - data: 'final_cities'
+#   template: 'services/drain-cleaning'
+#   name: 'Town'
+#   name_expr: + "drain-cleaning-" + record['Town']
+#   dir: '/'
   
-# 21. Sewer Renovation
-# url: /sewer-renovation-city-name/
-- data: 'final_cities'
-  template: 'services/sewer-renovation'
-  name: 'Town'
-  name_expr: + "sewer-renovation-" + record['Town']
-  dir: '/'
+# # 09. Drain Inspection
+# # url: /drain-inspection-city-name/
+# - data: 'final_cities'
+#   template: 'services/drain-inspection'
+#   name: 'Town'
+#   name_expr: + "drain-inspection-" + record['Town']
+#   dir: '/'
   
-# 22. Sewer Repairs
-# url: /sewer-repairs-city-name/
-- data: 'final_cities'
-  template: 'services/sewer-repairs'
-  name: 'Town'
-  name_expr: + "sewer-repairs-" + record['Town']
-  dir: '/'
+# # 10. Drain Jetting
+# # url: /drain-jetting-city-name/
+# - data: 'final_cities'
+#   template: 'services/drain-jetting'
+#   name: 'Town'
+#   name_expr: + "drain-jetting-" + record['Town']
+#   dir: '/'
   
-# 23. Sewer Relining
-# url: /sewer-relining-city-name/
-- data: 'final_cities'
-  template: 'services/sewer-relining'
-  name: 'Town'
-  name_expr: + "sewer-relining-" + record['Town']
-  dir: '/'
+# # 11. Drain Jet Vacuumation
+# # url: /drain-jet-vacuumation-city-name/
+# - data: 'final_cities'
+#   template: 'services/drain-jet-vacuumation'
+#   name: 'Town'
+#   name_expr: + "drain-jet-vacuumation-" + record['Town']
+#   dir: '/'
+  
+# # 12. Drain Relining
+# # url: /drain-relining-city-name/
+# - data: 'final_cities'
+#   template: 'services/drain-relining'
+#   name: 'Town'
+#   name_expr: + "drain-relining-" + record['Town']
+#   dir: '/'
+  
+# # 13. Drain Repairs
+# # url: /drain-repairs-city-name/
+# - data: 'final_cities'
+#   template: 'services/drain-repairs'
+#   name: 'Town'
+#   name_expr: + "drain-repairs-" + record['Town']
+#   dir: '/'
+  
+# # 14. Drainage Survey
+# # url: /drainage-survey-city-name/
+# - data: 'final_cities'
+#   template: 'services/drainage-survey'
+#   name: 'Town'
+#   name_expr: + "drainage-survey-" + record['Town']
+#   dir: '/'
+  
+# # 15. Drain Unblocking
+# # url: /drain-unblocking-city-name/
+# - data: 'final_cities'
+#   template: 'services/drain-unblocking'
+#   name: 'Town'
+#   name_expr: + "drain-unblocking-" + record['Town']
+#   dir: '/'
+  
+# # 16. Blocked Sewer
+# # url: /blocked-sewer-city-name/
+# - data: 'final_cities'
+#   template: 'services/blocked-sewer'
+#   name: 'Town'
+#   name_expr: + "blocked-sewer-" + record['Town']
+#   dir: '/'
+  
+# # 17. Sewer Desilting
+# # url: /sewer-desilting-city-name/
+# - data: 'final_cities'
+#   template: 'services/sewer-desilting'
+#   name: 'Town'
+#   name_expr: + "sewer-desilting-" + record['Town']
+#   dir: '/'
+  
+# # 18. Sewer Inspections
+# # url: /sewer-inspections-city-name/
+# - data: 'final_cities'
+#   template: 'services/sewer-inspections'
+#   name: 'Town'
+#   name_expr: + "sewer-inspections-" + record['Town']
+#   dir: '/'
+  
 
-# 24. Structural Coating
-# url: /structural-coating-city-name/
-- data: 'final_cities'
-  template: 'services/structural-coating'
-  name: 'Town'
-  name_expr: + "structural-coating-" + record['Town']
-  dir: '/'
+# # 19. Sewer Jet Vacuumation
+# # url: /sewer-jet-vacuumation-city-name/
+# - data: 'final_cities'
+#   template: 'services/sewer-jet-vacuumation'
+#   name: 'Town'
+#   name_expr: + "sewer-jet-vacuumation-" + record['Town']
+#   dir: '/'
+  
+# # 20. Sewer Rehabilitations
+# # url: /sewer-rehabilitations-city-name/
+# - data: 'final_cities'
+#   template: 'services/sewer-rehabilitations'
+#   name: 'Town'
+#   name_expr: + "sewer-rehabilitations-" + record['Town']
+#   dir: '/'
+  
+# # 21. Sewer Renovation
+# # url: /sewer-renovation-city-name/
+# - data: 'final_cities'
+#   template: 'services/sewer-renovation'
+#   name: 'Town'
+#   name_expr: + "sewer-renovation-" + record['Town']
+#   dir: '/'
+  
+# # 22. Sewer Repairs
+# # url: /sewer-repairs-city-name/
+# - data: 'final_cities'
+#   template: 'services/sewer-repairs'
+#   name: 'Town'
+#   name_expr: + "sewer-repairs-" + record['Town']
+#   dir: '/'
+  
+# # 23. Sewer Relining
+# # url: /sewer-relining-city-name/
+# - data: 'final_cities'
+#   template: 'services/sewer-relining'
+#   name: 'Town'
+#   name_expr: + "sewer-relining-" + record['Town']
+#   dir: '/'
+
+# # 24. Structural Coating
+# # url: /structural-coating-city-name/
+# - data: 'final_cities'
+#   template: 'services/structural-coating'
+#   name: 'Town'
+#   name_expr: + "structural-coating-" + record['Town']
+#   dir: '/'
 
 plugins:
   - jekyll-seo-tag
