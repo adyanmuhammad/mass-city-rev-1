@@ -25,13 +25,13 @@ page_gen:
   name_expr: + "blocked-drains-" + record['Town']
   dir: '/'
 
-# # 02. Blocked Baths
-# # url: /blocked-baths-city-name/
-# - data: 'final_cities'
-#   template: 'services/blocked-baths'
-#   name: 'Town'
-#   name_expr: + "blocked-baths-" + record['Town']
-#   dir: '/' 
+# 02. Blocked Baths
+# url: /blocked-baths-city-name/
+- data: 'final_cities'
+  template: 'services/blocked-baths'
+  name: 'Town'
+  name_expr: + "blocked-baths-" + record['Town']
+  dir: '/' 
   
 # # 03. Blocked Sinks
 # # url: /blocked-sinks-city-name/
