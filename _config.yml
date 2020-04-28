@@ -122,13 +122,13 @@ page_gen:
   name_expr: + "drain-repairs-" + record['Town']
   dir: '/'
   
-# # 14. Drainage Survey
-# # url: /drainage-survey-city-name/
-# - data: 'final_cities'
-#   template: 'services/drainage-survey'
-#   name: 'Town'
-#   name_expr: + "drainage-survey-" + record['Town']
-#   dir: '/'
+# 14. Drainage Survey
+# url: /drainage-survey-city-name/
+- data: 'final_cities'
+  template: 'services/drainage-survey'
+  name: 'Town'
+  name_expr: + "drainage-survey-" + record['Town']
+  dir: '/'
   
 # # 15. Drain Unblocking
 # # url: /drain-unblocking-city-name/
