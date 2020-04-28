@@ -146,13 +146,13 @@ page_gen:
   name_expr: + "blocked-sewer-" + record['Town']
   dir: '/'
   
-# # 17. Sewer Desilting
-# # url: /sewer-desilting-city-name/
-# - data: 'final_cities'
-#   template: 'services/sewer-desilting'
-#   name: 'Town'
-#   name_expr: + "sewer-desilting-" + record['Town']
-#   dir: '/'
+# 17. Sewer Desilting
+# url: /sewer-desilting-city-name/
+- data: 'final_cities'
+  template: 'services/sewer-desilting'
+  name: 'Town'
+  name_expr: + "sewer-desilting-" + record['Town']
+  dir: '/'
   
 # # 18. Sewer Inspections
 # # url: /sewer-inspections-city-name/
