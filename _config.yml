@@ -57,13 +57,13 @@ page_gen:
   name_expr: + "cctv-drains-survey-" + record['Town']
   dir: '/'
   
-# # 06. Home Buyers Drain Survey
-# # url: /home-buyers-drain-survey-city-name/
-# - data: 'final_cities'
-#   template: 'services/home-buyers-drain-survey'
-#   name: 'Town'
-#   name_expr: + "home-buyers-drain-survey-" + record['Town']
-#   dir: '/'
+# 06. Home Buyers Drain Survey
+# url: /home-buyers-drain-survey-city-name/
+- data: 'final_cities'
+  template: 'services/home-buyers-drain-survey'
+  name: 'Town'
+  name_expr: + "home-buyers-drain-survey-" + record['Town']
+  dir: '/'
   
 
 # # 07. Manhole Inspections
