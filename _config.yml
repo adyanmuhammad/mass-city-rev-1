@@ -66,13 +66,13 @@ page_gen:
   dir: '/'
   
 
-# # 07. Manhole Inspections
-# # url: /manhole-inspections-city-name/
-# - data: 'final_cities'
-#   template: 'services/manhole-inspections'
-#   name: 'Town'
-#   name_expr: + "manhole-inspections-" + record['Town']
-#   dir: '/'
+# 07. Manhole Inspections
+# url: /manhole-inspections-city-name/
+- data: 'final_cities'
+  template: 'services/manhole-inspections'
+  name: 'Town'
+  name_expr: + "manhole-inspections-" + record['Town']
+  dir: '/'
   
 # # 08. Drain Cleaning
 # # url: /drain-cleaning-city-name/
