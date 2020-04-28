@@ -114,13 +114,13 @@ page_gen:
   name_expr: + "drain-relining-" + record['Town']
   dir: '/'
   
-# # 13. Drain Repairs
-# # url: /drain-repairs-city-name/
-# - data: 'final_cities'
-#   template: 'services/drain-repairs'
-#   name: 'Town'
-#   name_expr: + "drain-repairs-" + record['Town']
-#   dir: '/'
+# 13. Drain Repairs
+# url: /drain-repairs-city-name/
+- data: 'final_cities'
+  template: 'services/drain-repairs'
+  name: 'Town'
+  name_expr: + "drain-repairs-" + record['Town']
+  dir: '/'
   
 # # 14. Drainage Survey
 # # url: /drainage-survey-city-name/
