@@ -41,13 +41,13 @@ page_gen:
   name_expr: + "blocked-sinks-" + record['Town']
   dir: '/'
   
-# # 04. Blocked Toilets
-# # url: /blocked-toilets-city-name/
-# - data: 'final_cities'
-#   template: 'services/blocked-toilets'
-#   name: 'Town'
-#   name_expr: + "blocked-toilets-" + record['Town']
-#   dir: '/'
+# 04. Blocked Toilets
+# url: /blocked-toilets-city-name/
+- data: 'final_cities'
+  template: 'services/blocked-toilets'
+  name: 'Town'
+  name_expr: + "blocked-toilets-" + record['Town']
+  dir: '/'
   
 # # 05. CCTV Drains Survey
 # # url: /cctv-drains-survey-city-name/
