@@ -106,13 +106,13 @@ page_gen:
   name_expr: + "drain-jet-vacuumation-" + record['Town']
   dir: '/'
   
-# # 12. Drain Relining
-# # url: /drain-relining-city-name/
-# - data: 'final_cities'
-#   template: 'services/drain-relining'
-#   name: 'Town'
-#   name_expr: + "drain-relining-" + record['Town']
-#   dir: '/'
+# 12. Drain Relining
+# url: /drain-relining-city-name/
+- data: 'final_cities'
+  template: 'services/drain-relining'
+  name: 'Town'
+  name_expr: + "drain-relining-" + record['Town']
+  dir: '/'
   
 # # 13. Drain Repairs
 # # url: /drain-repairs-city-name/
