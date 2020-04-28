@@ -154,13 +154,13 @@ page_gen:
   name_expr: + "sewer-desilting-" + record['Town']
   dir: '/'
   
-# # 18. Sewer Inspections
-# # url: /sewer-inspections-city-name/
-# - data: 'final_cities'
-#   template: 'services/sewer-inspections'
-#   name: 'Town'
-#   name_expr: + "sewer-inspections-" + record['Town']
-#   dir: '/'
+# 18. Sewer Inspections
+# url: /sewer-inspections-city-name/
+- data: 'final_cities'
+  template: 'services/sewer-inspections'
+  name: 'Town'
+  name_expr: + "sewer-inspections-" + record['Town']
+  dir: '/'
   
 
 # # 19. Sewer Jet Vacuumation
