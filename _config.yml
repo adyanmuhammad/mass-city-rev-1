@@ -186,13 +186,13 @@ page_gen:
   name_expr: + "sewer-renovation-" + record['Town']
   dir: '/'
   
-# # 22. Sewer Repairs
-# # url: /sewer-repairs-city-name/
-# - data: 'final_cities'
-#   template: 'services/sewer-repairs'
-#   name: 'Town'
-#   name_expr: + "sewer-repairs-" + record['Town']
-#   dir: '/'
+# 22. Sewer Repairs
+# url: /sewer-repairs-city-name/
+- data: 'final_cities'
+  template: 'services/sewer-repairs'
+  name: 'Town'
+  name_expr: + "sewer-repairs-" + record['Town']
+  dir: '/'
   
 # # 23. Sewer Relining
 # # url: /sewer-relining-city-name/
