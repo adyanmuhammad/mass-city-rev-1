@@ -82,13 +82,13 @@ page_gen:
   name_expr: + "drain-cleaning-" + record['Town']
   dir: '/'
   
-# # 09. Drain Inspection
-# # url: /drain-inspection-city-name/
-# - data: 'final_cities'
-#   template: 'services/drain-inspection'
-#   name: 'Town'
-#   name_expr: + "drain-inspection-" + record['Town']
-#   dir: '/'
+# 09. Drain Inspection
+# url: /drain-inspection-city-name/
+- data: 'final_cities'
+  template: 'services/drain-inspection'
+  name: 'Town'
+  name_expr: + "drain-inspection-" + record['Town']
+  dir: '/'
   
 # # 10. Drain Jetting
 # # url: /drain-jetting-city-name/
