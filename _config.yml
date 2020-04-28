@@ -202,13 +202,13 @@ page_gen:
   name_expr: + "sewer-relining-" + record['Town']
   dir: '/'
 
-# # 24. Structural Coating
-# # url: /structural-coating-city-name/
-# - data: 'final_cities'
-#   template: 'services/structural-coating'
-#   name: 'Town'
-#   name_expr: + "structural-coating-" + record['Town']
-#   dir: '/'
+# 24. Structural Coating
+# url: /structural-coating-city-name/
+- data: 'final_cities'
+  template: 'services/structural-coating'
+  name: 'Town'
+  name_expr: + "structural-coating-" + record['Town']
+  dir: '/'
 
 plugins:
   - jekyll-seo-tag
