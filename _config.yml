@@ -170,13 +170,13 @@ page_gen:
   name_expr: + "sewer-jet-vacuumation-" + record['Town']
   dir: '/'
   
-# # 20. Sewer Rehabilitations
-# # url: /sewer-rehabilitations-city-name/
-# - data: 'final_cities'
-#   template: 'services/sewer-rehabilitations'
-#   name: 'Town'
-#   name_expr: + "sewer-rehabilitations-" + record['Town']
-#   dir: '/'
+# 20. Sewer Rehabilitations
+# url: /sewer-rehabilitations-city-name/
+- data: 'final_cities'
+  template: 'services/sewer-rehabilitations'
+  name: 'Town'
+  name_expr: + "sewer-rehabilitations-" + record['Town']
+  dir: '/'
   
 # # 21. Sewer Renovation
 # # url: /sewer-renovation-city-name/
