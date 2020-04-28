@@ -194,13 +194,13 @@ page_gen:
   name_expr: + "sewer-repairs-" + record['Town']
   dir: '/'
   
-# # 23. Sewer Relining
-# # url: /sewer-relining-city-name/
-# - data: 'final_cities'
-#   template: 'services/sewer-relining'
-#   name: 'Town'
-#   name_expr: + "sewer-relining-" + record['Town']
-#   dir: '/'
+# 23. Sewer Relining
+# url: /sewer-relining-city-name/
+- data: 'final_cities'
+  template: 'services/sewer-relining'
+  name: 'Town'
+  name_expr: + "sewer-relining-" + record['Town']
+  dir: '/'
 
 # # 24. Structural Coating
 # # url: /structural-coating-city-name/
