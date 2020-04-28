@@ -162,14 +162,13 @@ page_gen:
   name_expr: + "sewer-inspections-" + record['Town']
   dir: '/'
   
-
-# # 19. Sewer Jet Vacuumation
-# # url: /sewer-jet-vacuumation-city-name/
-# - data: 'final_cities'
-#   template: 'services/sewer-jet-vacuumation'
-#   name: 'Town'
-#   name_expr: + "sewer-jet-vacuumation-" + record['Town']
-#   dir: '/'
+# 19. Sewer Jet Vacuumation
+# url: /sewer-jet-vacuumation-city-name/
+- data: 'final_cities'
+  template: 'services/sewer-jet-vacuumation'
+  name: 'Town'
+  name_expr: + "sewer-jet-vacuumation-" + record['Town']
+  dir: '/'
   
 # # 20. Sewer Rehabilitations
 # # url: /sewer-rehabilitations-city-name/
