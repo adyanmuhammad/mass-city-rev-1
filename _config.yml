@@ -49,13 +49,13 @@ page_gen:
   name_expr: + "blocked-toilets-" + record['Town']
   dir: '/'
   
-# # 05. CCTV Drains Survey
-# # url: /cctv-drains-survey-city-name/
-# - data: 'final_cities'
-#   template: 'services/cctv-drains-survey'
-#   name: 'Town'
-#   name_expr: + "cctv-drains-survey-" + record['Town']
-#   dir: '/'
+# 05. CCTV Drains Survey
+# url: /cctv-drains-survey-city-name/
+- data: 'final_cities'
+  template: 'services/cctv-drains-survey'
+  name: 'Town'
+  name_expr: + "cctv-drains-survey-" + record['Town']
+  dir: '/'
   
 # # 06. Home Buyers Drain Survey
 # # url: /home-buyers-drain-survey-city-name/
